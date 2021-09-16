@@ -35,15 +35,16 @@ describe("Word", function () {
 
   describe("removeConsonants function", function () {
     it("should return the word with the consonants removed", function () {
-      const newWord = new Word("hillo");
+
       const result = newWord.removeConsonants();
-      expect(result).to.equal('io');
+      expect(result).to.equal('oue');
     });
   });
 
   describe("pigLatin function", function () {
     it("should return the word converted to pig latin", function () {
-      expect.fail("replace with your code");
+      const result = newWord.pigLatin();
+      expect(result).to.equal("omputercay");
     });
   });
 });
